@@ -8,11 +8,11 @@ const server = http.createServer((req, res) => {
     if (req.url === "/") {
         res.end("Welcome to my Node.js server!");
     } else if (req.url === "/home") {
-        res.end("This is the home page.");
+        res.end("This is the home page. The Illustrator arts - Beyond art");
     } else if (req.url === "/contact-us") {
-        res.end("This is the contact Us page");
+        res.end("Contact us on instagram theillustratorarts ");
     } else if (req.url === "/about") {
-        res.end("This is the about page");
+        res.end("About us. The Illustrator arts is a creative initiative that is channeled solely towards the enlightenment and edification of individuals by the artistic representation of inspired illustrations");
     } else {
         res.end("404 - page not found");
     }
